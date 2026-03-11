@@ -17,3 +17,6 @@ En el programa se usan las clases:
   - java.util.List
   - java.util.Optional
   - java.util.ArrayList
+
+Para utilizarlo solo haria falta clonar el repositorio y compilar el main del proyecto, el cual estaría basado en una
+especie de Amadeus.
