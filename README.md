@@ -1,6 +1,6 @@
 # PruebaTecnica2
 Prueba Técnica - Curso 2
-Segunda Pruba técnica del curso, la cual es un programa para filtrar vuelos,
+Segunda Prueba técnica del curso, la cual es un programa para filtrar vuelos,
 en este caso las fechas ya vienen daddas por defecto y los vuelos tambien, el programa
 te permite filtrar estos vuelos segun una fos fechas, fechaInicio y fechaFin, las cuales se
 comparan con la fecha de salida del vuelo.
