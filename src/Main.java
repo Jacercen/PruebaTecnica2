@@ -48,7 +48,8 @@ public class Main {
                 LocalDate.of(2026, 5, 5), LocalDate.of(2026, 5, 5)));
 
         System.out.println("TODOS LOS VUELOS");
-        VueloServicio.mostrarVuelos(vuelos);
+        // Al utilizar collections y querer usar mostrarVuelos con un map, le tenemos que dar el .values()
+        VueloServicio.mostrarVuelos(vuelos.values());
 
         System.out.println("----------------------------------------------------------------------------------------------------");
         System.out.println("VUELOS FILTRADOS");
