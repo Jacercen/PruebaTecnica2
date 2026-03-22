@@ -4,10 +4,10 @@ Segunda Prueba técnica del curso.
 Este proyecto es un programa en Java para filtrar vuelos según un rango de fechas.
 
 El sistema simula un pequeño gestor de vuelos (inspirado en plataformas como Amadeus) donde los vuelos ya están cargados por defecto 
-y el usuario puede filtralos según su fecha de salida.
+y el usuario puede filtrarlos según su fecha de salida.
 
 ## Descripcion del proyecto
-El programa contiene una lista de vuelos predefinidos y premite filtralos utilizadon dos fechas:
+El programa contiene una lista de vuelos predefinidos y permite filtrarlos utilizando dos fechas:
   - fechaInicio
   - fechaFin
 
