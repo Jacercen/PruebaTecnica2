@@ -6,7 +6,7 @@ Este proyecto es un programa en Java para filtrar vuelos según un rango de fech
 El sistema simula un pequeño gestor de vuelos (inspirado en plataformas como Amadeus) donde los vuelos ya están cargados por defecto 
 y el usuario puede filtrarlos según su fecha de salida.
 
-## Descripcion del proyecto
+## Descripción del proyecto
 El programa contiene una lista de vuelos predefinidos y permite filtrarlos utilizando dos fechas:
   - fechaInicio
   - fechaFin
@@ -17,7 +17,7 @@ dentro de ese rango de fechas.
 El resultado se muestra mediante salida por consola.
 
 ## Estructura del proyecto
-El proyecto está organizado en varias clases para separar responsabilidades y mejorar la reutilizacion del código.
+El proyecto está organizado en varias clases para separar responsabilidades y mejorar la reutilización del código.
   - Main.java
     * Clase principal del programa.
     * Ejecuta el programa
@@ -31,10 +31,10 @@ El proyecto está organizado en varias clases para separar responsabilidades y m
         - Origen
         - Destino
         - Fecha de salida
-      Tambien incluye sus contructores, getters y setters.
+      También incluye sus constructores, getters y setters.
 
   - services/VueloServicio.java
-    * Clase que contiene los métodos reutilizables relaccionados con la gestión de vuelos, como pueden ser el mostrar los
+    * Clase que contiene los métodos reutilizables relacionados con la gestión de vuelos, como pueden ser el mostrar los
       vuelos por pantalla y gestionar la colección de vuelos.
       
   - utils/FiltroVuelo.java
