@@ -12,7 +12,7 @@ public class VueloServicio {
         vuelos.put(vuelo.getId(), vuelo);
     }
 
-    // mediante Collection utilizamos podemos anilazar tanto maps como list
+    // mediante Collection podemos analizar tanto maps como list
     public static void mostrarVuelos(Collection<Vuelo> vuelos) {
         System.out.printf("%-3s | %-8s | %-10s | %-20s | %-20s | %-12s | %-12s%n",
                 "ID", "VUELO", "EMPRESA", "SALIDA", "DESTINO", "F.SALIDA", "F.LLEGADA");

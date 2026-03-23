@@ -53,7 +53,7 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------------------------------------------");
         System.out.println("VUELOS FILTRADOS");
-        // Para usar el filtro necesitamos que los vuelos sean una lista
+
         List<Vuelo> vuelosFiltrados = VueloServicio.filtrarVuelos(vuelos, Optional.ofNullable(fechaInicio), Optional.ofNullable(fechaFin));
         VueloServicio.mostrarVuelos(vuelosFiltrados);
     }
